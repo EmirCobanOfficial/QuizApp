@@ -9,7 +9,8 @@ function UI() {
     this.btnNext = document.querySelector(".btn-next");
     this.btnReplay = document.querySelector(".btn-replay");
     this.btnQuit = document.querySelector(".btn-quit");
-
+    this.timeText = document.querySelector(".time-text");
+    this.timeSecond = document.querySelector(".time-second");
 }
 
 UI.prototype.soruGoster = function (soru) {
