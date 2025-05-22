@@ -11,6 +11,7 @@ function UI() {
     this.btnQuit = document.querySelector(".btn-quit");
     this.timeText = document.querySelector(".time-text");
     this.timeSecond = document.querySelector(".time-second");
+    this.timeLine = document.querySelector(".time-line");
 }
 
 UI.prototype.soruGoster = function (soru) {
