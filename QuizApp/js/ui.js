@@ -4,6 +4,9 @@ function UI() {
     this.correctIcon = `<i class="bi bi-check-cricle"></i>`;
     this.inCorrectIcon = `<i class="bi bi-x-cricle"></i>`;
     this.btnNext = document.querySelector(".btn-next");
+    this.btnReplay = document.querySelector(".btn-replay");
+    this.btnQuit = document.querySelector(".btn-quit");
+
 }
 
 UI.prototype.soruGoster = function (soru) {
@@ -46,4 +49,9 @@ UI.prototype.disableAllOption = function () {
 UI.prototype.soruSayisiniGoster = function (SoruSirasi, toplamSoru) {
     const etiket = `<span class = "badge text-bg-danger">${SoruSirasi} / ${toplamSoru}</span>`;
     document.querySelector(".question-index").innerHTML = etiket;
+}
+
+UI.prototype.skoruGoster = function (dogruCevap, toplamSoru) {
+    const etiket = `Toplam ${toplamSoru} soruda ${dogruCevap} doğru cevap verdiniz.`;
+    document.querySelector(".score-text").innerHTML = etiket;
 }
