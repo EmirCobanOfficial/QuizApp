@@ -3,6 +3,7 @@ function UI() {
     this.body = document.querySelector("#quiz-box #body");
     this.correctIcon = `<i class="bi bi-check-cricle"></i>`;
     this.inCorrectIcon = `<i class="bi bi-x-cricle"></i>`;
+    this.btnNext = document.querySelector(".btn-next");
 }
 
 UI.prototype.soruGoster = function (soru) {
@@ -40,4 +41,9 @@ UI.prototype.disableAllOption = function () {
     for (let option of options) {
         option.classList.add("disabled");
     }
+}
+
+UI.prototype.soruSayisiniGoster = function (SoruSirasi, toplamSoru) {
+    const etiket = `<span class = "badge text-bg-danger">${SoruSirasi} / ${toplamSoru}</span>`;
+    document.querySelector(".question-index").innerHTML = etiket;
 }
