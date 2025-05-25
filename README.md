@@ -1,27 +1,35 @@
-# 🧠 Quiz Uygulaması
+# 🧠 Quiz App / Quiz Uygulaması
 
-Bu proje, JavaScript, HTML ve CSS kullanılarak hazırlanmış basit ama işlevsel bir quiz (soru-cevap) uygulamasıdır. Kullanıcılar rastgele sorulara cevap verir, süreye karşı yarışır ve sonunda doğru cevap sayısını öğrenirler.
+A simple yet functional quiz application developed using JavaScript, HTML, and CSS. Users answer randomly selected questions, race against the clock, and see their final score at the end.
 
-## 🚀 Özellikler
+JavaScript, HTML ve CSS kullanılarak hazırlanmış basit ama işlevsel bir quiz (soru-cevap) uygulamasıdır. Kullanıcılar rastgele sorulara cevap verir, süreye karşı yarışır ve sonunda doğru cevap sayısını öğrenirler.
 
-- Zaman sınırlı sorular (10 saniye)
-- Doğru ve yanlış cevaplarda görsel bildirimler
-- Sorular bittikten sonra skor ekranı
-- Tekrar başlatma ve çıkış yapma butonları
-- Bootstrap ile modern kullanıcı arayüzü
+---
 
-## 🎮 Ekran Görüntüleri
+## 🚀 Features / Özellikler
 
-### Başlangıç Ekranı
-![Başlangıç Ekranı](https://github.com/user-attachments/assets/73d74350-6685-456b-9a4a-1a40b6fc825f)
+- ⏱️ Time-limited questions (10 seconds) – Zaman sınırlı sorular (10 saniye)
+- ✅ Visual feedback for correct/incorrect answers – Doğru ve yanlış cevaplarda görsel bildirim
+- 🏁 Score screen at the end – Sorular bittikten sonra skor ekranı
+- 🔁 Restart and exit buttons – Tekrar başlatma ve çıkış yapma butonları
+- 🖥️ Modern UI with Bootstrap – Bootstrap ile modern kullanıcı arayüzü
 
-### Soru Ekranı
-![Soru Görseli](https://github.com/user-attachments/assets/69cd3061-35eb-448f-8184-2b728792e967)
+---
 
-### Sonuç Ekranı
-![Sonuç Ekranı](https://github.com/user-attachments/assets/442d94c3-109d-4b5e-9ad6-20304b872f6c)
+## 🎮 Screenshots / Ekran Görüntüleri
 
-## ⚙️ Kullanılan Teknolojiler
+### 🟢 Start Screen / Başlangıç Ekranı
+![Start Screen](https://github.com/user-attachments/assets/73d74350-6685-456b-9a4a-1a40b6fc825f)
+
+### ❓ Question Screen / Soru Ekranı
+![Question Screen](https://github.com/user-attachments/assets/69cd3061-35eb-448f-8184-2b728792e967)
+
+### 🏆 Result Screen / Sonuç Ekranı
+![Result Screen](https://github.com/user-attachments/assets/442d94c3-109d-4b5e-9ad6-20304b872f6c)
+
+---
+
+## ⚙️ Built With / Kullanılan Teknolojiler
 
 - **HTML5**
 - **CSS3**
@@ -29,7 +37,9 @@ Bu proje, JavaScript, HTML ve CSS kullanılarak hazırlanmış basit ama işlevs
 - **Bootstrap 5.3**
 - **Bootstrap Icons**
 
-## 📁 Proje Dosya Yapısı
+---
+
+## 📁 Project Structure / Proje Dosya Yapısı
 
 ```plaintext
 proje-klasoru/
